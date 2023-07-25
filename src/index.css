@@ -1,3 +1,13 @@
+@font-face {
+  font-family: 'Playfair Display';
+  src: url('./fonts/PlayfairDisplay-VariableFont_wght.ttf');
+}
+
+@font-face {
+  font-family: Inter;
+  src: url('./fonts/Inter-VariableFont_slnt\,wght.ttf');
+}
+
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
 }
@@ -8,4 +18,52 @@
 
 body {
   margin: 0;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Playfair Display', serif;
+}
+
+p {
+  font-family: Inter, sans-serif;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: 500;
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  display: flex;
+}
+
+@media (min-width: 600px) {
+  h2 {
+    text-align: left;
+  }
+}
+
+@media (min-width: 1200px) {
+  h1 {
+    font-size: 2.8rem;
+  }
 }
