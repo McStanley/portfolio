@@ -1,0 +1,28 @@
+.ProjectCard {
+  box-shadow: 1px 2px 5px 0px rgba(0, 0, 0, 0.3);
+}
+
+.ProjectCard-links img {
+  height: 24px;
+}
+
+.ProjectCard-info {
+  padding: 20px 20px 60px;
+}
+
+.ProjectCard-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ProjectCard-links {
+  display: flex;
+  gap: 12px;
+}
+
+.ProjectCard-description {
+  margin-top: 20px;
+  font-size: 1.1rem;
+  color: #565656;
+  line-height: 1.4;
+}
