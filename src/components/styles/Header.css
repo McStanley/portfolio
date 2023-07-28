@@ -26,6 +26,16 @@
   font-size: 1.1rem;
   line-height: 1.5;
   color: #565656;
+  text-align: justify;
+}
+
+.Header-topLink {
+  text-decoration: none;
+  color: #a9792b;
+}
+
+.Header-topLink:hover {
+  text-decoration: solid underline 1px;
 }
 
 .Header-links {

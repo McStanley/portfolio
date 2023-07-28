@@ -13,14 +13,21 @@ function Header() {
       <section className="Header-info">
         <h2 className="Header-sectionTitle">About me</h2>
         <p className="Header-text">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus
-          tenetur repellendus, provident alias consequuntur, nobis
-          necessitatibus incidunt modi similique et adipisci laudantium. Eius
-          quaerat repudiandae autem, accusantium corporis nisi maxime. Lorem
-          ipsum dolor sit amet consectetur, adipisicing elit. Temporibus nam
-          minus placeat quo animi perferendis, quis esse culpa excepturi
-          doloremque pariatur a? Quaerat nostrum ut maxime perferendis aperiam
-          debitis possimus.
+          Hello! I{`'`}m Stanisław, an aspiring web developer based in Poland
+          with a primary focus on React. I find joy in crafting interactive and
+          user-friendly web experiences that look great and function seamlessly.
+          I am currently honing my skills and knowledge through{' '}
+          <a
+            className="Header-topLink"
+            href="https://www.theodinproject.com/about"
+            target="_blank"
+            rel="noreferrer"
+          >
+            The Odin Project{`'`}s
+          </a>{' '}
+          comprehensive curriculum, which has been instrumental in shaping my
+          understanding of web development and preparing me to tackle real-world
+          projects with confidence.
         </p>
         <div className="Header-links">
           <a
