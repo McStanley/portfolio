@@ -6,7 +6,13 @@ import './styles/ProjectCard.css';
 function ProjectCard({ name, description, screenshot, repoUrl, demoUrl }) {
   return (
     <article className="ProjectCard">
-      <img src={screenshot} alt={`${name} screenshot`} />
+      <div className="ProjectCard-imageContainer">
+        <img
+          className="ProjectCard-image"
+          src={screenshot}
+          alt={`${name} screenshot`}
+        />
+      </div>
       <div className="ProjectCard-info">
         <div className="ProjectCard-row">
           <h3>{name}</h3>

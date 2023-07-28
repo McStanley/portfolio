@@ -2,8 +2,16 @@
   box-shadow: 1px 2px 5px 0px rgba(0, 0, 0, 0.3);
 }
 
-.ProjectCard-links img {
-  height: 24px;
+.ProjectCard-imageContainer {
+  overflow: hidden;
+}
+
+.ProjectCard-image {
+  transition: transform 250ms;
+}
+
+.ProjectCard-image:hover {
+  transform: scale(1.2);
 }
 
 .ProjectCard-info {
@@ -18,6 +26,10 @@
 .ProjectCard-links {
   display: flex;
   gap: 12px;
+}
+
+.ProjectCard-links img {
+  height: 24px;
 }
 
 .ProjectCard-description {
