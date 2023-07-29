@@ -1,11 +1,15 @@
 @font-face {
   font-family: 'Playfair Display';
-  src: url('./fonts/PlayfairDisplay-VariableFont_wght.ttf');
+  src:
+    url('./fonts/PlayfairDisplay-VariableFont_wght.woff2') format('woff2'),
+    url('./fonts/PlayfairDisplay-VariableFont_wght.ttf') format('truetype');
 }
 
 @font-face {
   font-family: Inter;
-  src: url('./fonts/Inter-VariableFont_slnt,wght.ttf');
+  src:
+    url('./fonts/Inter-VariableFont_slnt,wght.woff2') format('woff2'),
+    url('./fonts/Inter-VariableFont_slnt,wght.ttf') format('truetype');
 }
 
 :root {
