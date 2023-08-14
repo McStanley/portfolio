@@ -1,5 +1,6 @@
 import Envelope from '../assets/envelope.svg';
 import GithubLogo from '../assets/github.svg';
+import LinkedInLogo from '../assets/linkedin.svg';
 import TwitterLogo from '../assets/twitter.svg';
 import ImageMobile from '../assets/footer-image-mobile.jpg';
 import ImageTablet from '../assets/footer-image-tablet.jpg';
@@ -32,6 +33,17 @@ function Footer() {
               rel="noreferrer"
             >
               <img className="Footer-logo" src={GithubLogo} alt="Github" />
+            </a>
+            <a
+              href="https://linkedin.com/in/stanislaw-olejniczak/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img
+                className="Footer-logo"
+                src={LinkedInLogo}
+                alt="LinkedIn"
+              ></img>
             </a>
             <a
               href="https://twitter.com/16stanley16"

@@ -1,5 +1,6 @@
 import Avatar from '../assets/avatar_hq.jpg';
 import GithubLogo from '../assets/github.svg';
+import LinkedInLogo from '../assets/linkedin.svg';
 import TwitterLogo from '../assets/twitter.svg';
 import './styles/Header.css';
 
@@ -36,6 +37,13 @@ function Header() {
             rel="noreferrer"
           >
             <img className="Header-logo" src={GithubLogo} alt="Github" />
+          </a>
+          <a
+            href="https://linkedin.com/in/stanislaw-olejniczak/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img className="Header-logo" src={LinkedInLogo} alt="LinkedIn" />
           </a>
           <a
             href="https://twitter.com/16stanley16"
