@@ -39,11 +39,7 @@ function Footer() {
               target="_blank"
               rel="noreferrer"
             >
-              <img
-                className="Footer-logo"
-                src={LinkedInLogo}
-                alt="LinkedIn"
-              ></img>
+              <img className="Footer-logo" src={LinkedInLogo} alt="LinkedIn" />
             </a>
             <a
               href="https://twitter.com/16stanley16"
